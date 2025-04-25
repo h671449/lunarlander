@@ -8,11 +8,13 @@ Make sure to have a supported version of python and an environment with gymnasiu
 
 To install run the following commands in console (not powershell):
 
-   > pip install swig
-   > pip install gymnasium[box2d]
+   < pip install swig
    
-   > pip install pygame
-   > pip install pytorch
+   < pip install gymnasium[box2d]
+   
+   < pip install pygame
+   
+   < pip install pytorch
 
    There might be a dependency on other imports, but these can easily be installed in the same way if prompted to do so.
 

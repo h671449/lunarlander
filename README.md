@@ -16,6 +16,6 @@ To install run the following commands in console (not powershell):
    
     pip install pytorch
 
-   There might be a dependency on other imports, but these can easily be installed in the same way if prompted to do so.
+   There might be a dependency on other imports, but these can easily be installed in the same way if prompted to do so when attempting to run.
 
 Gymnasium is not fully supported on windows. I encountered a common issue with box2d when running the command << pip install gymnasium[all] >>, but by trying again after running << pip install swig >> it worked.
